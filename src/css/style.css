@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container div, h1 {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px;
+  height: 90px;
+}
+
+.historia {
+  padding-top: 20px;
+}
+
+.benvinguts {
+  padding-top: 20px;
+}
+
+.accordion {
+  padding-top: 100px;
+}
+
+.comosicio {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.logos-footer {
+  height: 71px;
+}
+
+.logos-footer img {
+  width: 100px;
+}
+
+.footer {
+  padding-top: 30px;
+}/*# sourceMappingURL=style.css.map */
