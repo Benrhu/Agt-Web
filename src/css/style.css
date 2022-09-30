@@ -14,7 +14,40 @@ body {
   padding-top: 50px;
 }
 
-.container div, h1 {
+.flex-ubicacion {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  justify-content: space-around;
+}
+
+.flex-column form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+  padding-top: 50px;
+  justify-content: space-around;
+}
+
+#contact-form {
+  width: 100%;
+}
+
+#contact-form input {
+  border-radius: 500px;
+}
+
+#contact-form textarea {
+  border-radius: 10px;
+}
+
+.form {
+  margin: auto;
+  width: 500px;
+}
+
+.container, h1 {
   background-color: white;
   width: 100%;
   text-align: center;
@@ -31,6 +64,11 @@ body {
 
 .copy {
   padding-top: 35px;
+}
+
+.accordion-collapse li {
+  text-align: justify;
+  padding-top: 10px;
 }
 
 .associacio-body {
