@@ -8,10 +8,37 @@ body {
   justify-content: center;
 }
 
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
 .container div, h1 {
   background-color: white;
   width: 100%;
   text-align: center;
+}
+
+.container img {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.container h1 {
+  padding-top: 20px;
+}
+
+.copy {
+  padding-top: 35px;
+}
+
+.associacio-body {
+  padding-top: 30px;
+}
+
+.associacio-body h5 {
+  padding-bottom: 30px;
 }
 
 .logo {
